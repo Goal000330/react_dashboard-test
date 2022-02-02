@@ -1,1 +1,1 @@
-React Test Task by ✌✌sin
+React Test Task
