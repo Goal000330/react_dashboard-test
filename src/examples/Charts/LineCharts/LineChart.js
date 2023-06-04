@@ -31,7 +31,8 @@ class LineChart extends React.Component {
 
   componentDidMount() {
     const { lineChartData, lineChartOptions } = this.props;
-
+    console.log(lineChartData);
+    console.log(lineChartOptions);
     this.setState({
       chartData: lineChartData,
       chartOptions: lineChartOptions,

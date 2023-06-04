@@ -30,7 +30,7 @@ class BarChart extends Component {
 
   componentDidMount() {
     const { barChartData, barChartOptions } = this.props;
-
+    console.log(barChartData);
     this.setState({
       chartData: barChartData,
       chartOptions: barChartOptions,
