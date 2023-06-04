@@ -42,6 +42,7 @@ function MasterCard({ number, valid, cvv }) {
   console.log(num3);
   console.log(num2);
   console.log(num1);
+  console.log("123", num1);
   return (
     <Card sx={{ background: `url('${billingCard}')`, backdropfilter: "blur(31px)" }}>
       <VuiBox p={2} pt={0}>
