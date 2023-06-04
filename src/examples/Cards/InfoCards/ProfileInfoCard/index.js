@@ -35,7 +35,7 @@ function ProfileInfoCard({ title, description, info, social }) {
   const labels = [];
   const values = [];
   const { size } = typography;
-
+  console.log(values);
   // Convert this form `objectKey` of the object key in to this `object key`
   Object.keys(info).forEach((el) => {
     if (el.match(/[A-Z\s]+/)) {
