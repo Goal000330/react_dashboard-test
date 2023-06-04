@@ -38,7 +38,10 @@ function MasterCard({ number, valid, cvv }) {
   const num2 = numbers.slice(4, 8).join("");
   const num3 = numbers.slice(8, 12).join("");
   const num4 = numbers.slice(12, 16).join("");
-
+  console.log(num4);
+  console.log(num3);
+  console.log(num2);
+  console.log(num1);
   return (
     <Card sx={{ background: `url('${billingCard}')`, backdropfilter: "blur(31px)" }}>
       <VuiBox p={2} pt={0}>
